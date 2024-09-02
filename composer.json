@@ -1,0 +1,36 @@
+{
+    "name": "yuga/backpack",
+    "description": "Admin Dashboard for yuga applications",
+    "keywords": ["framework", "Yuga", "Admin"],
+    "type": "library",
+    "require-dev": {
+        "yuga/framework": "^4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yuga\\Backpack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamid Semitala",
+            "email": "semix.hamidouh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 8.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "yuga": {
+            "providers": [
+                "Yuga\\Backpack\\Providers\\BackpackServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
